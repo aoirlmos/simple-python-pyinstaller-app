@@ -26,7 +26,7 @@ pipeline {
             }
             post {
                 success {
-                    archiveAArtifacts 'dist/add2vals'
+                    archiveArtifacts 'dist/add2vals'
                 }
             }
         }
